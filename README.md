@@ -1,5 +1,4 @@
-# CarND Extended Kalman Filter Project
-Self-Driving Car Engineer Nanodegree Program
+# Self-Driving Car Project 6. Extended Kalman Filter
 
 ## Overview
 
