@@ -31,20 +31,16 @@ Here is the main protcol that `main.cpp` uses for uWebSocketIO in communicating 
 
 **INPUT**: values provided by the simulator to the c++ program
 
-    ```
     ["sensor_measurement"] => the measurement that the simulator observed (either lidar or radar)
-    ```
 
 **OUTPUT**: values provided by the c++ program to the simulator
 
-    ```
     ["estimate_x"] <= kalman filter estimated position x
     ["estimate_y"] <= kalman filter estimated position y
     ["rmse_x"]
     ["rmse_y"]
     ["rmse_vx"]
     ["rmse_vy"]
-    ```
 
 ## Other Important Dependencies
 
@@ -105,4 +101,4 @@ for instructions and the project rubric.
 
     + Create an empty log file
     + Remove write permissions so that the simulator can't write to log
- * Please note that the ```Eigen``` library does not initialize ```VectorXd``` or ```MatrixXd``` objects with zeros upon creation.
+ * Please note that the `Eigen` library does not initialize `VectorXd` or `MatrixXd` objects with zeros upon creation.
