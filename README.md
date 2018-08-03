@@ -93,6 +93,48 @@ More information is only accessible by people who are already enrolled in Term 2
 of CarND. If we are enrolled, see [the project resources page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/382ebfd6-1d55-4487-84a5-b6a5a4ba1e47)
 for instructions and the project rubric.
 
+## Run the Extended Kalman Filter
+
+From the directory `./build`, run `./ExtendedKF`, and here is the output:
+
+    Listening to port 4567
+    Connected!!!
+
+Which means the our Extended Kalman Filter program has connected to the simulator successfully.
+
+### The Start View of the Simulator
+
+![Start View of the Simulator](README-images/start.png)
+
+### Datasets
+
+The simulator provides two datasets. The difference between them are:
+
+- The direction the car (the object) is moving
+- The order the first measurement is sent to the EKF:
+	- On dataset 1, the LIDAR measurement is sent first
+	- On dataset 2, the RADAR measurement is sent first
+
+### Test with Dataset 1
+
+Here is the final state of the simulator after running the Extended Kalman Filter program againt dataset 1:
+
+![Simulator with Dataset 1](README-images/dataset1.png)
+
+Here is a snapshot on the log of the Extended Kalman Filter program running against dataset 1:
+
+![EFK Log against Dataset 1](README-images/dataset1-log.png)
+
+### Test with Dataset 2
+
+Here is the final state of the simulator after running the Extended Kalman Filter program againt dataset 1:
+
+![Simulator with dataset 2](README-images/dataset2.png)
+
+Here is a snapshot on the log of the Extended Kalman Filter program running against dataset 2:
+
+![EFK Log against Dataset 2](README-images/dataset2-log.png)
+
 ## Hints and Tips!
 
 * We don't have to follow this directory structure, but if we do, our work
